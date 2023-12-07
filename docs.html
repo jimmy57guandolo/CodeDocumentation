@@ -329,5 +329,318 @@
     return JSX.Element;
 }</code></pre>
 
+    <!-- Submit Menu Item -->
+<h2>Submit Menu Item</h2>
+<p>Submits the new menu item to the backend.</p>
+<pre><code>function submitMenuItem(props, props.newMenuItemData, props.onSubmitMenuItem) {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- Fetch Employee Data -->
+<h2>Fetch Employee Data</h2>
+<p>Fetches employee data from the backend.</p>
+<pre><code>function fetchEmployeeData() {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch Inventory Data -->
+<h2>Fetch Inventory Data</h2>
+<p>Fetches inventory data from the backend.</p>
+<pre><code>function fetchInventoryData() {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch Manager Data -->
+<h2>Fetch Manager Data</h2>
+<p>Fetches manager data from the backend.</p>
+<pre><code>function fetchManagerData() {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch Menu Data -->
+<h2>Fetch Menu Data</h2>
+<p>Fetches menu data from the backend.</p>
+<pre><code>function fetchMenuData() {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch Order History -->
+<h2>Fetch Order History</h2>
+<p>Fetches order history data from the backend.</p>
+<pre><code>function fetchOrderHistory(props, props.customerId) {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch Order Status -->
+<h2>Fetch Order Status</h2>
+<p>Fetches the status of a specific order from the backend.</p>
+<pre><code>function fetchOrderStatus(props, props.orderId) {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch Product Data -->
+<h2>Fetch Product Data</h2>
+<p>Fetches product data for a specified category from the backend.</p>
+<pre><code>function fetchProductData(props, props.category) {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch User Data -->
+<h2>Fetch User Data</h2>
+<p>Fetches user data based on the provided email address.</p>
+<pre><code>function fetchUserData() {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Fetch Weather Data -->
+<h2>Fetch Weather Data</h2>
+<p>Fetches weather data from the OpenWeatherMap API.</p>
+<pre><code>function fetchWeatherData() {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- Log Out -->
+<h2>Log Out</h2>
+<p>Handles the logout process, resetting user state and navigating to the home page or login page.</p>
+<pre><code>function logOut() {
+    // Implementation
+}</code></pre>
+
+<!-- Submit Edit Inventory -->
+<h2>Submit Edit Inventory</h2>
+<p>Submits the edited inventory item data to the backend.</p>
+<pre><code>function submitEditInventory(props, props.editedInventoryItemData, props.onSubmitEditInventoryItem) {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- Menu -->
+<h2>Menu</h2>
+<p>Component for displaying the menu.</p>
+<pre><code>function Menu() {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- Categories -->
+<h2>Categories</h2>
+<p>Component for displaying menu categories.</p>
+<pre><code>function Categories(props, props.activeSection, props.setActiveSection) {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- OrderNow -->
+<h2>OrderNow</h2>
+<p>Component for ordering products.</p>
+<pre><code>function OrderNow() {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- fetchProducts -->
+<h2>fetchProducts</h2>
+<p>Fetches products for a given category and updates the state.</p>
+<pre><code>function fetchProducts(props, props.category) {
+    // Implementation
+}</code></pre>
+
+<!-- renderProducts -->
+<h2>renderProducts</h2>
+<p>Renders the products for a given category.</p>
+<pre><code>function renderProducts(props, props.category) {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- renderCartItems -->
+<h2>renderCartItems</h2>
+<p>Renders the items in the shopping cart.</p>
+<pre><code>function renderCartItems() {
+    // Implementation
+    return JSX.Element[];
+}</code></pre>
+
+<!-- Settings -->
+<h2>Settings</h2>
+<p>Component for managing user settings.</p>
+<pre><code>function Settings() {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- loadGoogleTranslateScript -->
+<h2>loadGoogleTranslateScript</h2>
+<p>Loads the Google Translate script and initializes the translation element with specified settings.</p>
+<pre><code>function loadGoogleTranslateScript() {
+    // Implementation
+}</code></pre>
+
+<!-- handleColorChange -->
+<h2>handleColorChange</h2>
+<p>Handles color change in the settings.</p>
+<pre><code>function handleColorChange(props, props.e) {
+    // Implementation
+}</code></pre>
+
+<!-- handleFontSizeChange -->
+<h2>handleFontSizeChange</h2>
+<p>Handles font size change in the settings.</p>
+<pre><code>function handleFontSizeChange(props, props.e) {
+    // Implementation
+}</code></pre>
+
+<!-- SettingsContext -->
+<h2>SettingsContext</h2>
+<p>Context to manage user settings.</p>
+<pre><code>type SettingsContext = {
+    colorStyle: string;
+    setColorStyle: Function;
+    fontSize: string;
+    setFontSize: Function;
+};</code></pre>
+
+<!-- SettingsProvider -->
+<h2>SettingsProvider</h2>
+<p>Provider component to manage user settings.</p>
+<pre><code>function SettingsProvider(props, props.children) {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- useSettings -->
+<h2>useSettings</h2>
+<p>Custom hook to access user settings.</p>
+<pre><code>function useSettings() {
+    // Implementation
+    return SettingsContext;
+}</code></pre>
+
+<!-- Footer -->
+<h2>Footer</h2>
+<p>Footer component displaying social media icons.</p>
+<pre><code>function Footer() {
+    // Implementation
+    return JSX.Element;
+}</code></pre>
+
+<!-- useDynamicScrollbar -->
+<h2>useDynamicScrollbar</h2>
+<p>Custom hook for handling scrollbar visibility based on content overflow.</p>
+<pre><code>function useDynamicScrollbar(props, props.content, props.scrollRef) {
+    // Implementation
+    return boolean;
+}</code></pre>
+
+<!-- checkOverflow -->
+<h2>checkOverflow</h2>
+<p>Checks if the content overflows the container and sets the scrollbar visibility.</p>
+<pre><code>function checkOverflow() {
+    // Implementation
+}</code></pre>
+
+<!-- Error Message -->
+<h2>Error Message</h2>
+<p>Error message component to display when a user with insufficient role tries to access an interface.</p>
+<pre><code>function ErrorMessage(props, props.userRole, props.requiredRole) {
+    // Implementation
+    return React.Component;
+}</code></pre>
+
+<!-- Logout Button -->
+<h2>Logout Button</h2>
+<p>Logout button component for user logout functionality.</p>
+<pre><code>function LogoutButton() {
+    // Implementation
+    return React.Component;
+}</code></pre>
+
+<!-- handleLogout -->
+<h2>handleLogout</h2>
+<p>Handles the logout process, resetting user state and navigating to the home page or login page.</p>
+<pre><code>function handleLogout() {
+    // Implementation
+}</code></pre>
+
+<!-- Report Web Vitals -->
+<h2>Report Web Vitals</h2>
+<p>Reports web vitals using the provided callback function.</p>
+<pre><code>function reportWebVitals(props, props.onPerfEntry) {
+    // Implementation
+}</code></pre>
+
+<!-- useUserContext -->
+<h2>useUserContext</h2>
+<p>Hook for accessing user-related data and actions from the UserContext.</p>
+<pre><code>function useUserContext() {
+    // Implementation
+    return UserContext;
+}</code></pre>
+
+<!-- Weather -->
+<h2>Weather</h2>
+<p>Weather component displaying current weather information.</p>
+<pre><code>function Weather() {
+    // Implementation
+    return React.ReactNode;
+}</code></pre>
+
+<!-- fetchWeatherData -->
+<h2>fetchWeatherData</h2>
+<p>Fetch weather data from OpenWeatherMap API.</p>
+<pre><code>function fetchWeatherData() {
+    // Implementation
+    return Promise<void>;
+}</code></pre>
+
+<!-- capitalizeFirstLetter -->
+<h2>capitalizeFirstLetter</h2>
+<p>Capitalizes the first letter of each word in a string.</p>
+<pre><code>function capitalizeFirstLetter(props, props.str) {
+    // Implementation
+    return string;
+}</code></pre>
+
+<!-- Weather Conditions -->
+<h2>Weather Conditions</h2>
+<p>Mapping of weather conditions to corresponding image paths.</p>
+<pre><code>const WeatherConditions = {
+    // Implementation
+};</code></pre>
+
+<!-- App -->
+<h2>App</h2>
+<p>Main application component representing the home page.</p>
+<pre><code>function App() {
+    // Implementation
+    return React.ReactNode;
+}</code></pre>
+
+<!-- Private Route -->
+<h2>Private Route</h2>
+<p>PrivateRoute component for controlling access to specific routes based on user roles.</p>
+<pre><code>function PrivateRoute(props, props.element, props.requiredRole) {
+    // Implementation
+    return React.ReactNode;
+}</code></pre>
+
+<!-- Routing -->
+<h2>Routing</h2>
+<p>Routing component for defining application routes.</p>
+<pre><code>function Routing() {
+    // Implementation
+    return React.ReactNode;
+}</code></pre>
+    
 </body>
 </html>
